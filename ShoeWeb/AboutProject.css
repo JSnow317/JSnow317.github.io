@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: table;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+}
+
+span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+li, a, button{
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 3%;
+}
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a{
+    transition: all 1.5s ease 0s;
+}
+
+.navigation li a:hover{
+    color: #0088a9
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+/*Formatting and styling every aspect of the elements displayed in the about page*/
+.container{
+    position: absolute;
+    width: 90%;
+    top: 15%;
+    left: 3%;
+}
+
+.container h2{
+    position: absolute;
+    left: 20%;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: ivory;
+}
+
+.container p{
+    position: relative;
+    width: 40%;
+    top: 200px;
+    font-family: 'Alata', sans-serif;
+    font-style: Bold;
+    font-size: 32px;
+    color: ivory;
+}
+
+.container p1{
+    position: absolute;
+    width: 42%;
+    top: 300px;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: ivory;
+}
+
+.container span{
+    font-family: 'Alata', sans-serif;
+    font-style: bold;
+    font-size: 22px;
+    color: ivory;
+}
+
+.container .imageOne{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 150%;
+}
+
+.container a{
+    color: lawngreen;
+    border-bottom: black;
+}
+
+.container p3{
+    position: relative;
+    width: 40%;
+    top: 600px;
+    left: 15px;
+    font-family: 'Alata', sans-serif;
+    font-style: Bold;
+    font-size: 32px;
+    color: ivory;
+}
+
+.container p4{
+    position: absolute;
+    width: 42%;
+    top: 700px;
+    left: 15px;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: ivory;
+}
+
+.container .imageTwo{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 750%;
+}
+
+.container p5{
+    position: relative;
+    width: 40%;
+    top: 1200px;
+    left: 700px;
+    font-family: 'Alata', sans-serif;
+    font-style: Bold;
+    font-size: 32px;
+    color: ivory;
+}
+
+.container p6{
+    position: absolute;
+    width: 42%;
+    top: 1300px;
+    left: 750px;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: ivory;
+}
+
+.container .imageThree{
+    position: absolute;
+    width: 45%;
+    left: 1%;
+    top: 1350%;
+}
+
+/*Formatting for the table*/
+.tablePos{
+    position: absolute;
+    width: 100%;
+    top: 213%;
+}
+
+.tablePos a{
+    background-color: ivory;
+    color: black;
+}
+
+h4{
+    font-family: 'Alata', sans-serif;
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 205%;
+}
+
+table {
+    font-family: 'Alata', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 4px solid #dddddd;
+    background-color: ivory;
+    text-align: left;
+    padding: 8px;
+  }
+
+/*Bottom of the page styling for each element*/
+
+#bottom-page{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(17, 22, 24, 0.8);
+    position: absolute;
+    top: 240%;
+    left: 0;
+}
+
+#bottom-page p{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+#bottom-page span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+#bottom-page button{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(78, 88, 90);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+    position: absolute;
+    left: 70%;
+    bottom: 20%;
+}
+
+h2{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 5%;
+    background-color: transparent;
+}
+
+.list{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 16px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+.list-items{
+    background-color: transparent;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+h3{    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 60%;
+    bottom: 48%;
+    background-color: transparent;  
+}
+

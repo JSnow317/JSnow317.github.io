@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: table;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+}
+
+span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+li, a, button{
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 3%;
+}
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a{
+    transition: all 1.5s ease 0s;
+}
+
+.navigation li a:hover{
+    color: #0088a9
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+/*Card Bodies for each of the photos*/
+/*Set the proper positioning for each of the cards, every other attribute is identical*/
+
+.card {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+    transition: 1.5s;
+  }
+
+  .card2 {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    color: white;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+    transition: 1.5s;
+  }
+
+  .card3 {
+    position: absolute;
+    top: 20%;
+    left: 68%;
+    color: white;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+    transition: 1.5s;
+  }
+
+  .card4 {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    color: white;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+    transition: 1.5s;
+  }
+
+  .card5 {
+    position: absolute;
+    top: 90%;
+    left: 37%;
+    color: white;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+    transition: 1.5s;
+  }
+
+  .card6 {
+    position: absolute;
+    top: 90%;
+    left: 67%;
+    color: white;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+    transition: 1.5s;
+  }
+
+  /* Make the height the same for each image, keeps the cards symmetrical*/
+  .card-img-top{
+      height: 17rem;
+  }
+
+  .card-img-top2{
+      height: 17rem;
+  }
+
+  .card-img-top3{
+      height: 17rem;
+  }
+
+  .card-img-top4{
+    height: 17rem;
+}
+
+.card-img-top5{
+    height: 17rem;
+}
+
+.card-img-top6{
+    height: 17rem;
+}
+
+/* Card body needs to be identical in height for each item, if not specified it will differ*/
+
+  .card-body{
+    height: 15rem;
+}
+
+.card-body2{
+    height: 15rem;
+}
+
+.card-body3{
+    height: 15rem;
+}
+
+.card-body4{
+    height: 15rem;
+}
+
+.card-body5{
+    height: 15rem;
+}
+
+.card-body6{
+    height: 15rem;
+}
+
+/*Create a button for each card body and change color to match sneaker color way*/
+  
+  .card-body .btn{
+    margin-left: 145px;
+    padding: 8px;
+    background-color: rgb(20, 169, 0);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 2.0s ease 0s;
+    text-decoration: none;
+}
+
+.card-body2 .btn{
+    margin-left: 150px;
+    padding: 8px;
+    background-color: rgb(8, 45, 206);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 2.0s ease 0s;
+    text-decoration: none;
+}
+
+.card-body3 .btn{
+    margin-left: 150px;
+    padding: 8px;
+    background-color: rgb(1, 8, 36);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 2.0s ease 0s;
+    text-decoration: none;
+}
+
+.card-body4 .btn{
+    margin-left: 150px;
+    padding: 8px;
+    background-color: rgb(170, 7, 7);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 2.0s ease 0s;
+    text-decoration: none;
+}
+
+.card-body5 .btn{
+    margin-left: 150px;
+    padding: 8px;
+    background-color: rgb(197, 185, 21);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 2.0s ease 0s;
+    text-decoration: none;
+}
+
+.card-body6 .btn{
+    margin-left: 150px;
+    padding: 8px;
+    background-color: rgb(228, 17, 17);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 2.0s ease 0s;
+    text-decoration: none;
+}
+
+/*Set the proper text for each card and space accordingly*/
+.card-title{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.card-text span{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+/*Bottom of the page styling for each element*/
+
+#bottom-page{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(17, 22, 24, 0.8);
+    position: absolute;
+    top: 160%;
+    left: 0;
+}
+
+#bottom-page p{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+#bottom-page span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+#bottom-page button{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(78, 88, 90);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+    position: absolute;
+    left: 70%;
+    bottom: 20%;
+}
+
+h2{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 5%;
+    background-color: transparent;
+}
+
+.list{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 16px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+.list-items{
+    background-color: transparent;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+h3{    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 60%;
+    bottom: 48%;
+    background-color: transparent;  
+}
+
+  
+  

@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: table;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+}
+
+span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+li, a, button{
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 3%;
+}
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a{
+    transition: all 1.5s ease 0s;
+}
+
+.navigation li a:hover{
+    color: #0088a9
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+/*Creating the login box*/
+body{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-color: transparent;
+    font-family: Arial;
+}
+
+.pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    background-color: transparent;
+}
+
+.login h1{
+    margin: 0;
+    padding: 0 0 25px;
+    position: relative;
+    bottom: 4px;
+    left: 10px;
+    font-size: 32px;
+    color: white;
+    
+}
+
+.login{
+    width: 320px;
+    height: 420px;
+    border-style: solid;
+    border-radius: 25px;
+    background: white;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 50px 100px 100px 0 rgba(0, 0, 0, 0.472);
+    padding: 50px 30px;
+    background-color: transparent;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 96px;
+}
+
+.login input{
+    width: 200px;
+    margin-bottom: 20px;
+    color: ivory;
+    background-color: transparent;
+}
+
+.login input[type = "text"], input[type = "password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 40px;
+
+}
+
+.login input[type = "checkbox"]{
+    height: 10px;
+    width: 60px;
+}
+
+.login input[type = "button"]{
+    height: 10%;
+    width: 100%;
+}
+
+.login a:hover{
+    color: purple;
+}
+
+.login a{
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.472);
+}
+
+/*Holds the text created when a user signs up for an account*/
+#placeHere{
+    position: absolute;
+    background-color: transparent;
+    color: ivory;
+    top: 80%;
+    left: 25%;
+}
+
+/*Bottom of the page styling for each element*/
+
+#bottom-page{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(17, 22, 24, 0.8);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#bottom-page p{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+#bottom-page span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+#bottom-page button{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(78, 88, 90);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+    position: absolute;
+    left: 70%;
+    bottom: 20%;
+}
+
+h2{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 5%;
+    background-color: transparent;
+}
+
+.list{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 16px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+.list-items{
+    background-color: transparent;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+h3{    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 60%;
+    bottom: 48%;
+    background-color: transparent;  
+}

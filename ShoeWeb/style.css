@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: table;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+}
+
+span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+li, a, button{
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 3%;
+}
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a{
+    transition: all 1.5s ease 0s;
+}
+
+.navigation li a:hover{
+    color: #0088a9
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+#slider{
+    overflow: hidden;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    right: 5%;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 22s slider infinite; 
+}
+
+#slider figure img{
+    width: 20%;
+    height: 800px;
+    float: left;
+}
+
+/*Text and button for thw first image on the slide show since they are the latest product
+*/
+
+.top-left span{
+    padding: 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: 'Palatino', sans-serif;
+    font-style: bold;
+    font-weight: 50;
+    font-size: 60px;
+    position: absolute;
+    top: 18px;
+    left: 5px;
+}
+
+.top-left button{
+    padding: 15px;
+    background-color: rgb(206, 205, 205);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 280px;
+    left: 220px;
+    transition: all 2.0s ease 1.0s;
+}
+
+/*Bottom of the page styling for each element*/
+
+#bottom-page{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(17, 22, 24, 0.8);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#bottom-page p{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+#bottom-page span{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+#bottom-page button{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(78, 88, 90);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+    position: absolute;
+    left: 70%;
+    bottom: 20%;
+}
+
+h2{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 5%;
+    background-color: transparent;
+}
+
+.list{
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 16px;
+    color: #edf0f1;
+    background-color: transparent;
+}
+
+.list-items{
+    background-color: transparent;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+h3{    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #edf0f1;
+    left: 60%;
+    bottom: 48%;
+    background-color: transparent;  
+}
+
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    95%{
+        left: -400%;
+    }
+    100%{
+        right: -400%;
+    }
+}
